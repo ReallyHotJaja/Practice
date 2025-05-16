@@ -1,0 +1,87 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Стили для header */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Центрирование навигации */
+.center {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 10px 0;
+}
+
+/* Стили для навигации */
+nav a {
+    color: #004080;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0073e6;
+}
+
+/* Основной контент */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    color: #004080;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+}
+
+main p, main ul p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Стили для списка в разделе "Ожидаемые результаты" */
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0 20px 0;
+}
+
+/* Футер */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
